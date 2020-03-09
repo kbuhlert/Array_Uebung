@@ -21,6 +21,19 @@ public class Main {
         System.out.println(feld[3]);
         System.out.println(feld[4]);
 
+        //Setzte drittes Arrayelement auf den Wert 2 und drucke Methdoe aus
+        feld[2] = 2;
+        printFeld5(feld);
 
+    }
+
+    //Methode die den Array ausgibt
+    public static void printFeld5 (int[] feldi){
+        System.out.println(feldi[0]);
+        System.out.println(feldi[1]);
+        System.out.println(feldi[2]);
+        System.out.println(feldi[3]);
+        System.out.println(feldi[4]);
+        System.out.println(feldi);
     }
 }
